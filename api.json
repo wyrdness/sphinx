@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/sphinx",
     "maintainers": [
       {
@@ -18,412 +16,113 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "sphinx",
     "name": "Sphinx",
-    "aliases": [
-      {
-        "name": "Great Sphinx of Giza",
-        "region": "Egypt",
-        "meaning": "Specific monument"
-      },
-      {
-        "name": "Sphinx of Thebes",
-        "region": "Greece",
-        "meaning": "Greek mythological sphinx"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Hybrid Guardian",
+    "subcategory": "Series of sphinx statues lining processional routes",
     "tags": [
-      "mythological",
-      "greek",
-      "egyptian",
-      "guardian",
-      "riddle",
-      "hybrid-creature",
-      "lion",
-      "wings"
+      "wisdom",
+      "guardianship",
+      "pharaonic-authority",
+      "eternal-protection"
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "Legendary creature with multiple cultural variants. Greek version features lion body, woman's head, and eagle wings; famous for posing deadly riddles. Egyptian version has lion body with human (usually male) head, serving as guardian of tombs and temples.",
-      "full": "The sphinx is a legendary creature appearing in both Greek and Egyptian mythology with distinct characteristics in each tradition. The Greek sphinx has a lion's body, woman's head, eagle's wings, and sometimes a serpent's tail. She guarded the city of Thebes, posing a riddle to travelers and killing those who failed to answer correctly until defeated by Oedipus. The Egyptian sphinx features a lion's body with a human head (typically male, often representing a pharaoh) and serves as a guardian of tombs and temples, symbolizing royal power and wisdom. The most famous example is the Great Sphinx of Giza, a massive limestone monument approximately 66 feet high and 240 feet long, dating to c. 2500 BCE. The sphinx represents mystery, wisdom, guardianship, and in Greek tradition, the danger of unanswered questions."
+      "summary": "The sphinx is a legendary creature appearing in both Greek and Egyptian mythology with distinct characteristics in each tradition.",
+      "full": "The sphinx is a legendary creature appearing in both Greek and Egyptian mythology with distinct characteristics in each tradition. The **Greek sphinx** has a lion's body, woman's head, eagle's wings, and sometimes a serpent's tail. She guarded the city of Thebes, posing a riddle to travelers and killing those who failed to answer correctly until defeated by Oedipus. The **Egyptian sphinx** features a lion's body with a human head (typically male, often representing a pharaoh) and serves as a guardian of tombs and temples, symbolizing royal power and wisdom. The most famous example is the Great Sphinx of Giza, a massive limestone monument approximately 66 feet high and 240 feet long, dating to c. 2500 BCE. The sphinx represents mystery, wisdom, guardianship, and in Greek tradition, the danger of unanswered questions."
     },
     "etymology": {
-      "origin": "From Greek 'sphinx,' possibly from 'sphíngo' meaning 'to squeeze' or 'to bind tight'",
-      "meaning": "The strangler or the one who binds",
-      "first_use": "Ancient Greek period"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Hybrid",
-      "subtype": "Lion-human composite",
-      "variant": "Greek and Egyptian variants"
+      "type": "Series of sphinx statues lining processional routes",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "griffin",
-        "name": "Griffin",
-        "relationship": "similar",
-        "description": "Another lion-eagle hybrid guardian creature"
-      },
-      {
-        "id": "manticore",
-        "name": "Manticore",
-        "relationship": "similar",
-        "description": "Lion body with human head and scorpion tail"
-      },
-      {
-        "id": "chimera",
-        "name": "Chimera",
-        "relationship": "similar",
-        "description": "Greek hybrid monster with multiple animal parts"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "greek_sphinx": {
-        "body": "Lion",
-        "head": "Woman",
-        "wings": "Eagle wings",
-        "tail": "Sometimes serpent tail",
-        "size": "Large, threatening"
-      },
-      "egyptian_sphinx": {
-        "body": "Lion (recumbent position)",
-        "head": "Human (usually male/pharaoh)",
-        "wings": "None",
-        "size": "Varies from small statues to Great Sphinx (66ft high, 240ft long)"
-      },
-      "features": [
-        {
-          "feature": "Lion body",
-          "description": "Powerful leonine body symbolizing strength",
-          "frequency": "always"
-        },
-        {
-          "feature": "Human head",
-          "description": "Woman (Greek) or man/pharaoh (Egyptian)",
-          "frequency": "always"
-        },
-        {
-          "feature": "Eagle wings",
-          "description": "Large wings enabling flight (Greek version)",
-          "frequency": "common in Greek"
-        },
-        {
-          "feature": "Serpent tail",
-          "description": "Sometimes depicted on Greek sphinx",
-          "frequency": "occasional"
-        }
-      ]
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Riddle-posing",
-        "description": "Poses deadly riddles to travelers (Greek sphinx)",
-        "frequency": "always",
-        "evidence_level": "mythology"
-      },
-      {
-        "ability": "Flight",
-        "description": "Can fly using eagle wings (Greek version)",
-        "frequency": "common",
-        "evidence_level": "mythology"
-      },
-      {
-        "ability": "Guardian power",
-        "description": "Protects sacred places from unworthy visitors",
-        "frequency": "always",
-        "evidence_level": "mythology"
-      },
-      {
-        "ability": "Deadly strength",
-        "description": "Kills those who fail riddle or attempt to pass",
-        "frequency": "common",
-        "evidence_level": "mythology"
-      },
-      {
-        "ability": "Intelligence",
-        "description": "Possesses wisdom and knowledge",
-        "frequency": "always",
-        "evidence_level": "mythology"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "greek_sphinx": {
-        "activity_period": "continuous",
-        "disposition": "hostile",
-        "role": "Deadly guardian and riddle-poser",
-        "patterns": [
-          "Blocks passage to Thebes",
-          "Poses riddle to all travelers",
-          "Kills those who answer incorrectly",
-          "Death upon defeat (by Oedipus)"
-        ]
-      },
-      "egyptian_sphinx": {
-        "activity_period": "eternal",
-        "disposition": "neutral guardian",
-        "role": "Protector of tombs, temples, and sacred sites",
-        "patterns": [
-          "Guards important locations",
-          "Symbolizes pharaonic power",
-          "Represents wisdom and mystery"
-        ]
-      }
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Greek and Egyptian mythology; monuments throughout Egypt and ancient Greek territories",
-      "continents": ["Africa", "Europe", "Asia"],
-      "regions": [
-        "Ancient Egypt",
-        "Ancient Greece",
-        "Mediterranean region"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "notable_locations": [
-      {
-        "name": "Great Sphinx of Giza",
-        "location": {
-          "description": "Giza Plateau",
-          "country": "Egypt",
-          "coordinates": {
-            "latitude": 29.9753,
-            "longitude": 31.1376
-          }
-        },
-        "type": "Monument",
-        "date": "c. 2500 BCE",
-        "notes": "Largest and most famous sphinx monument, 66ft high, 240ft long, carved from limestone"
-      },
-      {
-        "name": "Avenue of Sphinxes",
-        "location": {
-          "description": "Karnak to Luxor Temple",
-          "country": "Egypt"
-        },
-        "type": "Monument series",
-        "notes": "Ancient processional route lined with sphinx statues"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "c. 2500 BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Great Sphinx of Giza construction"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Old Kingdom Egypt (c. 2500 BCE)",
-          "description": "Great Sphinx construction"
-        },
-        {
-          "period": "Classical Greek period (c. 500-300 BCE)",
-          "description": "Oedipus myth popularization"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Dual origins in Egyptian and Greek civilizations with distinct characteristics and purposes",
-      "earliest_accounts": "Egyptian sphinx monuments date to Old Kingdom (c. 2500 BCE); Greek sphinx appears in mythology and art from Archaic period",
-      "folklore_connections": "Connected to broader traditions of hybrid guardian creatures and testing/riddle traditions"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "c. 2500 BCE",
-        "event": "Great Sphinx of Giza built",
-        "significance": "Most famous sphinx monument created during Old Kingdom",
-        "source": "Archaeological evidence"
-      },
-      {
-        "date": "c. 470 BCE",
-        "event": "Oedipus myth recorded",
-        "significance": "Sophocles' plays feature the Sphinx of Thebes riddle",
-        "source": "Greek dramatic literature"
-      },
-      {
-        "date": "c. 1400 BCE",
-        "event": "Dream Stele",
-        "significance": "Thutmose IV records dream at Great Sphinx, documenting its sacred status",
-        "source": "Stele between sphinx's paws"
-      }
-    ],
-    "famous_riddle": {
-      "riddle": "What walks on four legs in the morning, two legs at noon, and three legs in the evening?",
-      "answer": "A human (crawls as baby, walks as adult, uses cane in old age)",
-      "solver": "Oedipus",
-      "consequence": "Sphinx's defeat and death; Oedipus becomes King of Thebes"
-    }
+    "timeline": []
   },
-
-  "mythology": {
-    "greek_tradition": {
-      "role": "Deadly guardian of Thebes who posed riddles",
-      "origin": "Offspring of monsters (various genealogies)",
-      "famous_myth": "Oedipus and the Sphinx - Oedipus solved the riddle, causing the sphinx to die (threw herself from cliff or devoured herself)",
-      "symbolism": "Mystery, deadly knowledge, the unknown"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "egyptian_tradition": {
-      "role": "Guardian of sacred places, representation of royal power",
-      "origin": "Combination of human intelligence and leonine strength",
-      "famous_monument": "Great Sphinx of Giza - possibly represents Pharaoh Khafre",
-      "symbolism": "Wisdom, guardianship, pharaonic authority, eternal protection"
-    }
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "monuments": [
-      {
-        "type": "sculpture",
-        "name": "Great Sphinx of Giza",
-        "date": "c. 2500 BCE",
-        "description": "Massive limestone sculpture, 66ft high, 240ft long",
-        "location": "Giza Plateau, Egypt",
-        "status": "extant",
-        "analysis": "Oldest and largest monumental sculpture in Egypt"
-      },
-      {
-        "type": "sculptures",
-        "name": "Avenue of Sphinxes",
-        "date": "Various periods",
-        "description": "Series of sphinx statues lining processional routes",
-        "location": "Karnak-Luxor, Egypt",
-        "status": "extant",
-        "analysis": "Demonstrates importance of sphinx as guardian symbol"
-      }
-    ],
-    "artistic": [
-      {
-        "type": "pottery",
-        "name": "Greek vase paintings",
-        "date": "6th-5th century BCE",
-        "description": "Depictions of winged sphinx with woman's head",
-        "status": "museum collections",
-        "analysis": "Shows Greek conception of sphinx"
-      }
-    ],
-    "textual": [
-      {
-        "type": "literature",
-        "name": "Sophocles' Oedipus Rex",
-        "date": "c. 429 BCE",
-        "description": "Greek tragedy featuring the Sphinx riddle",
-        "status": "classical text",
-        "analysis": "Canonical version of Greek sphinx myth"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "egyptian_sphinx": [
-      {
-        "name": "Royal representation",
-        "description": "Egyptian sphinxes represent specific pharaohs, combining human intellect with lion strength",
-        "evidence_cited": ["Great Sphinx possibly depicts Khafre", "Pharaonic regalia on many sphinxes"]
-      },
-      {
-        "name": "Solar symbolism",
-        "description": "Sphinx represents sun god and solar power",
-        "evidence_cited": ["East-facing orientation of Great Sphinx", "Association with Ra"]
-      }
-    ],
-    "greek_sphinx": [
-      {
-        "name": "Knowledge trial",
-        "description": "Represents the danger of ignorance and importance of wisdom",
-        "evidence_cited": ["Riddle tradition", "Death as consequence of failure"]
-      },
-      {
-        "name": "Boundary guardian",
-        "description": "Marks threshold between civilization and chaos",
-        "evidence_cited": ["Position blocking Thebes", "Hybrid nature representing liminal state"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
-    "symbolism": {
-      "egyptian": [
-        "Royal power and authority",
-        "Wisdom and intelligence",
-        "Guardianship and protection",
-        "Eternal vigilance"
-      ],
-      "greek": [
-        "Mystery and riddles",
-        "Deadly knowledge",
-        "The unknown and unknowable",
-        "Testing and judgment"
-      ]
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Oedipus Rex and related Greek plays",
-        "Modern fantasy literature featuring sphinxes",
-        "Harry Potter series (sphinx guarding Triwizard maze)"
-      ],
-      "visual_arts": [
-        "Ancient Egyptian monuments and reliefs",
-        "Greek pottery and sculpture",
-        "Renaissance and Neoclassical art",
-        "Modern interpretations"
-      ],
-      "heraldry": [
-        "Various European coats of arms",
-        "Institutional symbols"
-      ],
-      "architecture": [
-        "Decorative elements in Neoclassical architecture",
-        "Garden statuary",
-        "Public monuments"
-      ],
-      "other": [
-        "Versace logo (Medusa, related Gorgon)",
-        "Egyptian tourism symbol",
-        "Fraternal organization imagery"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "sophocles-oedipus",
-      "type": "classical text",
-      "title": "Oedipus Rex",
-      "authors": ["Sophocles"],
-      "date": "c. 429 BCE"
-    },
-    {
-      "id": "lehner-1997",
-      "type": "book",
-      "title": "The Complete Pyramids",
-      "authors": ["Mark Lehner"],
-      "publication": "Thames & Hudson",
-      "date": "1997",
-      "isbn": "978-0500050842"
-    },
-    {
-      "id": "wilkinson-2003",
-      "type": "book",
-      "title": "The Complete Gods and Goddesses of Ancient Egypt",
-      "authors": ["Richard H. Wilkinson"],
-      "publication": "Thames & Hudson",
-      "date": "2003",
-      "isbn": "978-0500051207"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
