@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/sphinx",
     "maintainers": [
       {
@@ -16,74 +16,155 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "sphinx",
     "name": "Sphinx",
-    "aliases": [],
-    "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Series of sphinx statues lining processional routes",
-    "tags": [
-      "wisdom",
-      "guardianship",
-      "pharaonic-authority",
-      "eternal-protection"
+    "aliases": [
+      { "name": "Andro-sphinx", "language": "Greek/English", "meaning": "Male-headed sphinx (Egyptian type); from Greek andros (male)" },
+      { "name": "Criosphinx", "language": "Greek/English", "meaning": "Ram-headed sphinx; Egyptian variant" },
+      { "name": "Hieracosphinx", "language": "Greek/English", "meaning": "Hawk-headed sphinx; Egyptian variant" },
+      { "name": "Σφίγξ", "language": "Ancient Greek", "meaning": "Sphinx; possibly from sphingein (to squeeze/strangle), referring to the lion's killing method" },
+      { "name": "Shesep-ankh", "language": "Ancient Egyptian", "meaning": "'Living image'; proposed Egyptian origin of the word sphinx" }
     ],
-    "status": "documented",
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Hybrid guardian creature / mythological composite being",
+    "tags": [
+      "egyptian",
+      "greek",
+      "mythology",
+      "hybrid",
+      "lion",
+      "humanoid",
+      "guardian",
+      "ancient",
+      "riddle",
+      "pharaonic",
+      "winged",
+      "oedipus"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The sphinx is a legendary creature appearing in both Greek and Egyptian mythology with distinct characteristics in each tradition.",
-      "full": "The sphinx is a legendary creature appearing in both Greek and Egyptian mythology with distinct characteristics in each tradition. The **Greek sphinx** has a lion's body, woman's head, eagle's wings, and sometimes a serpent's tail. She guarded the city of Thebes, posing a riddle to travelers and killing those who failed to answer correctly until defeated by Oedipus. The **Egyptian sphinx** features a lion's body with a human head (typically male, often representing a pharaoh) and serves as a guardian of tombs and temples, symbolizing royal power and wisdom. The most famous example is the Great Sphinx of Giza, a massive limestone monument approximately 66 feet high and 240 feet long, dating to c. 2500 BCE. The sphinx represents mystery, wisdom, guardianship, and in Greek tradition, the danger of unanswered questions."
+      "summary": "The sphinx is a mythological composite creature — combining human and animal features, primarily a human head and lion body — that appears in both ancient Egyptian and ancient Greek traditions with distinct roles: guardian and royal symbol in Egypt, riddle-posing deadly monster in Greece.",
+      "full": "The sphinx is one of the most enduring mythological composite creatures, appearing in both Egyptian and Greek antiquity with significantly different characteristics. In Egyptian tradition, the sphinx is typically a benevolent guardian — a male-headed leonine figure (androsphinx) representing the pharaoh's power, wisdom, and divine protection. Egyptian sphinxes are wingless and guard temples and processional routes; the most famous example is the Great Sphinx of Giza (c. 2500 BCE), approximately 73 meters long and 20 meters high, carved from the living limestone of the Giza Plateau, believed to bear the likeness of Pharaoh Khafre. The Egyptian tradition also includes ram-headed (criosphinx) and hawk-headed (hieracosphinx) variants. The Greek sphinx is an entirely different figure: female, winged, with the body of a lion, the head of a woman, and the wings of an eagle; sometimes with a serpent's tail. She was a deadly monster guarding the approach to Thebes who posed a riddle to travelers — 'What walks on four legs in the morning, two at noon, and three in the evening?' — and killed those who failed to answer correctly. Oedipus famously answered correctly ('a human being, who crawls as an infant, walks upright as an adult, and uses a staff in old age'), causing the sphinx to kill herself. The sphinx figure spread from Egypt and Greece throughout the ancient Mediterranean world, into South and Southeast Asian traditions, and was revived extensively in European Renaissance and later art and architecture."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The Greek word Σφίγξ (Sphinx) is of uncertain but Greek origin, possibly connected to sphingein (to squeeze, to bind tight), referring to the lion's method of killing prey by constriction of the throat. An alternative theory proposes corruption from the Egyptian shesep-ankh ('living image'), a term applied to royal sphinx statues.",
+      "meaning": "The 'strangler' or 'throttler' in the Greek interpretation; 'living image' in the proposed Egyptian etymology.",
+      "first_use": "Egyptian sphinxes are attested from at least the Old Kingdom (c. 2600–2500 BCE). The Greek sphinx tradition is attested in art and literature from at least the 6th century BCE."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Series of sphinx statues lining processional routes",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Composite mythological being",
+      "subtype": "Guardian / hybrid humanoid-leonine",
+      "variant": "Egyptian (androsphinx, criosphinx, hieracosphinx); Greek (winged female)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "griffin", "name": "Griffin", "relationship": "similar", "description": "Another winged composite creature (lion body, eagle head/wings) from ancient Mediterranean mythology; guardian figure" },
+      { "id": "manticore", "name": "Manticore", "relationship": "similar", "description": "Persian composite creature with human face and lion body; the 'man-eater' counterpart" },
+      { "id": "lamassu", "name": "Lamassu", "relationship": "similar", "description": "Assyrian protective deity depicted as a winged bull or lion with human head; functional analog in Mesopotamian tradition" },
+      { "id": "great-sphinx-of-giza", "name": "Great Sphinx of Giza", "relationship": "subset", "description": "The most famous surviving physical sphinx; carved from limestone c. 2500 BCE at Giza, Egypt" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.5, "max": 20.0, "unit": "meters", "confidence": "variable" },
+      "features": [
+        { "feature": "Human head (androsphinx)", "description": "The most common form — a human face, typically male and representing a pharaoh in Egyptian tradition; female in Greek tradition", "frequency": "always" },
+        { "feature": "Lion body", "description": "The body of a lion is constant across all sphinx variants in both Egyptian and Greek traditions", "frequency": "always" },
+        { "feature": "Wings (Greek sphinx)", "description": "The Greek sphinx has the wings of an eagle or large bird; Egyptian sphinxes are typically wingless", "frequency": "common" },
+        { "feature": "Ram head (criosphinx)", "description": "Egyptian variant with a ram's head; associated with the god Amun; found in the avenue of sphinxes at Karnak", "frequency": "occasional" },
+        { "feature": "Hawk head (hieracosphinx)", "description": "Egyptian variant with a falcon or hawk head; associated with Horus", "frequency": "occasional" },
+        { "feature": "Royal headdress (nemes)", "description": "Egyptian androsphinxes typically wear the nemes royal headdress, emphasizing their identification with the pharaoh", "frequency": "common" }
+      ],
+      "morphology": "A composite creature: human or animal head combined with the body of a lion, sometimes with eagle wings. The combination of human intelligence (head) with leonine power and ferocity (body) was the central symbolic statement of both Egyptian and Greek versions, though the symbolic valence differed — beneficent royal power in Egypt, deadly monstrous danger in Greece."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Riddle-posing (Greek sphinx)", "description": "The Greek sphinx posed a riddle to travelers approaching Thebes and killed those who failed to answer correctly", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Guardian function (Egyptian sphinxes)", "description": "Egyptian sphinxes guard the approaches to temples and royal tombs; the physical statues embody this protective function", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "Killing by strangling (Greek sphinx)", "description": "The Greek sphinx killed those who answered the riddle incorrectly by seizing and throttling them", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["temple entrances", "tomb approaches", "processional routes", "liminal or threshold spaces"],
+      "diet": "The Greek sphinx devoured those who could not answer her riddle; Egyptian sphinxes have no attributed diet — they are guardian statues",
+      "patterns": [
+        "Greek sphinx: guards a specific threshold (the road to Thebes) and poses a riddle; destroys those who fail",
+        "Egyptian sphinxes: station themselves at the approaches to sacred spaces; rows of sphinxes line processional avenues",
+        "The Greek sphinx destroys herself when defeated by a correct answer"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Ancient Egypt, ancient Greece, and subsequently throughout the Mediterranean world and into South and Southeast Asia through cultural diffusion. Physical sphinx statues survive primarily in Egypt and in museums worldwide.",
+      "continents": ["Africa", "Europe", "Asia"],
+      "countries": ["Egypt", "Greece", "Turkey", "India", "Sri Lanka", "Thailand"],
+      "regions": ["Giza Plateau", "Thebes", "Karnak", "Memphis", "Ancient Mediterranean", "South and Southeast Asia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Great Sphinx of Giza",
+        "location": {
+          "description": "Giza Plateau, west bank of the Nile, near Cairo, Egypt",
+          "country": "Egypt",
+          "region": "Giza Governorate",
+          "coordinates": { "latitude": 29.9753, "longitude": 31.1376 }
+        },
+        "sighting_count": 0,
+        "peak_period": "c. 2500 BCE–present",
+        "notes": "The largest and most famous sphinx; approximately 73 m long and 20 m high; carved from the living limestone of the Giza Plateau; most Egyptologists date it to the reign of Khafre (c. 2558–2532 BCE)"
+      },
+      {
+        "name": "Avenue of Sphinxes, Karnak",
+        "location": {
+          "description": "Karnak Temple complex, Luxor, Egypt",
+          "country": "Egypt",
+          "region": "Luxor Governorate",
+          "coordinates": { "latitude": 25.7188, "longitude": 32.6572 }
+        },
+        "sighting_count": 0,
+        "peak_period": "c. 1400–1300 BCE",
+        "notes": "A 3 km avenue lined with ram-headed sphinxes (criosphinxes) connecting the Karnak and Luxor temples; largely restored and rededicated in modern times"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "2500-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Great Sphinx of Giza, c. 2500 BCE (Old Kingdom Egypt)"
+      },
+      "peak_activity_periods": [
+        { "period": "c. 2600–30 BCE", "description": "Ancient Egyptian civilization; proliferation of sphinx statuary in temples and royal complexes" },
+        { "period": "c. 700–300 BCE", "description": "Classical Greek period; sphinx as mythological figure in drama, vase painting, and literature" },
+        { "period": "15th–19th century CE", "description": "Renaissance and European revival of sphinx imagery in art, architecture, and decorative arts" }
+      ],
+      "seasonal_patterns": "Not applicable to a mythological and archaeological figure."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The sphinx originated in ancient Egypt, where the first large sphinx statue (the Great Sphinx of Giza) was carved approximately 2500 BCE. The concept spread through the ancient Mediterranean — to Greece, the Levant, and Mesopotamia — where it was adapted into local mythological systems. The Greek sphinx tradition developed independently from the Egyptian model, producing a fundamentally different characterization (monstrous, female, winged) versus the Egyptian (benevolent, royal, typically wingless).",
+      "earliest_accounts": "The Great Sphinx of Giza (c. 2500 BCE) is the oldest surviving large-scale sphinx. The sphinx appears in Egyptian art from the 4th Dynasty of the Old Kingdom onward. The Greek sphinx tradition is attested in vase painting from the 6th century BCE and in literary sources from the same period.",
+      "folklore_connections": "The sphinx concept spread into South Asian traditions as a protective deity figure (appearing in Indian, Sri Lankan, and Southeast Asian iconography under various names). In the European tradition, the sphinx was revived during the Renaissance and recurred in Neoclassical, Romantic, and Decadent art as a symbol of mystery, female danger, and the unknowable."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2500-01-01", "event": "Great Sphinx of Giza carved from the living limestone of the Giza Plateau, likely during the reign of Pharaoh Khafre", "significance": "The oldest and most famous sphinx; the definitive physical form of the Egyptian sphinx tradition", "source": "Egyptological consensus" },
+      { "date": "1400-01-01", "event": "Avenue of Sphinxes at Karnak commissioned (ram-headed criosphinxes); extended during the New Kingdom", "significance": "Exemplifies the Egyptian use of sphinx avenues in temple architecture", "source": "Egyptological documentation" },
+      { "date": "0496-01-01", "event": "Sophocles's Oedipus Rex (c. 496 BCE) dramatizes the Oedipus and Sphinx myth, producing the most influential literary version of the Greek sphinx legend", "significance": "The primary classical literary source for the Greek sphinx riddle tradition", "source": "Sophocles, Oedipus Rex" },
+      { "date": "1699-01-01", "event": "European Egyptomania begins following Napoleon's Egyptian campaign; sphinxes become a major motif in Neoclassical and Empire-style European art and architecture", "significance": "Western cultural revival of sphinx imagery", "source": "Art historical record" }
+    ],
+    "modern_era": "The Great Sphinx of Giza remains one of the most recognized archaeological monuments in the world and a major international tourist destination. Egyptological debate continues over the sphinx's exact date of construction, the identity of the face, and the nature of so-called 'water weathering' on the body (the controversial Schoch-West hypothesis that the sphinx predates Khafre's reign). The sphinx figure remains a global cultural icon, appearing widely in art, architecture, literature, and popular culture."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -94,35 +175,121 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "sphinx-evidence-great-sphinx",
+        "type": "archaeological structure",
+        "name": "Great Sphinx of Giza",
+        "date": "2500-01-01",
+        "description": "Monolithic limestone sphinx approximately 73 meters long and 20 meters high, carved from the bedrock of the Giza Plateau during the Old Kingdom of ancient Egypt. The face is believed to represent Pharaoh Khafre.",
+        "location": "Giza Plateau, Giza Governorate, Egypt (29.9753°N, 31.1376°E)",
+        "status": "verified",
+        "analysis": "The Great Sphinx is an unambiguously real and documented archaeological structure. Egyptological consensus dates it to c. 2558–2532 BCE (Khafre's reign). A minority scholarly position (Schoch-West hypothesis) argues for an earlier date based on weathering patterns, but this view is not widely accepted.",
+        "source": "Egyptological consensus; UNESCO World Heritage documentation"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Water weathering / pre-Dynastic origin (Schoch hypothesis)",
+        "description": "Geologist Robert Schoch argued in 1992 that the pattern of erosion on the body of the Great Sphinx is consistent with heavy rainfall weathering rather than wind/sand erosion, suggesting it was carved during a wetter period in Egypt's history — potentially as early as 7000–5000 BCE, long before Khafre's reign.",
+        "proponents": ["Robert M. Schoch (Boston University)", "John Anthony West"],
+        "evidence_cited": ["Vertical erosion channels on the sphinx body inconsistent with desert wind erosion", "Evidence for a wetter climate in Egypt in the 6th–5th millennia BCE"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Conventional Egyptological dating (Khafre, c. 2500 BCE)",
+        "description": "The overwhelming consensus of Egyptologists dates the Great Sphinx to the reign of Pharaoh Khafre (c. 2558–2532 BCE) based on context (proximity to Khafre's pyramid), ancient inscriptions, and stylistic analysis of the face. The Schoch water weathering hypothesis is disputed on geological grounds.",
+        "proponents": ["Egyptological mainstream", "Zahi Hawass", "Mark Lehner"],
+        "evidence_cited": ["The Sphinx Temple and Khafre's Valley Temple share the same construction material, suggesting contemporaneous construction", "Ancient texts referencing the sphinx under Khafre's successor Thutmose IV", "Stylistic match between the sphinx's face and statues of Khafre"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Ancient Egyptian royal and religious iconography",
+        "Greek mythological tradition (Theban sphinx, Oedipus cycle)",
+        "South and Southeast Asian protective deity traditions"
+      ],
+      "stories": [
+        "Oedipus and the Sphinx: Oedipus answers the riddle ('What walks on four legs in the morning, two at noon, and three in the evening?'; answer: a human being) and the Sphinx destroys herself",
+        "The Dream Stele of Thutmose IV: Thutmose dreams the sphinx promises him the kingship if he frees it from the sand; he does so and becomes Pharaoh, commemorating the event in the stele between the sphinx's paws"
+      ],
+      "beliefs": "In Egyptian tradition, the sphinx embodies royal power, divine wisdom, and the protective ferocity of the lion applied in service of the pharaoh and the gods. In Greek tradition, the sphinx represents the dangerous, unknowable feminine principle that destroys the unworthy."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Sophocles, Oedipus Rex (c. 496 BCE) — definitive Greek sphinx narrative",
+        "Oscar Wilde, The Sphinx (1894) — Decadent poem on sphinx imagery",
+        "Rick Riordan, The Kane Chronicles (2010–2012) — features Egyptian sphinx"
+      ],
+      "film_tv": [
+        "The Sphinx (1933) — Hollywood film",
+        "Sphinx (1981) — archaeological thriller",
+        "Egypt-themed blockbusters frequently feature the Great Sphinx as backdrop"
+      ],
+      "games": [
+        "Various video games set in ancient Egypt feature sphinx encounters",
+        "Sphinx and the Cursed Mummy (2003) — Nintendo GameCube game"
+      ],
+      "other": [
+        "The Great Sphinx of Giza is a UNESCO World Heritage Site and one of the most visited monuments in the world",
+        "Sphinx imagery is widely used in architectural decoration, heraldry, and decorative arts across European and American neoclassical tradition"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Mark Lehner", "affiliation": "Oriental Institute, University of Chicago / Ancient Egypt Research Associates", "contribution": "Extensive mapping and analysis of the Giza Plateau including the Great Sphinx; leading proponent of Khafre dating", "period": "1970s–present" },
+      { "name": "Robert M. Schoch", "affiliation": "Boston University (geology)", "contribution": "Proposed water weathering hypothesis challenging the conventional Khafre dating of the sphinx (1992)", "period": "1990s–present" },
+      { "name": "Zahi Hawass", "affiliation": "Egyptian Supreme Council of Antiquities", "contribution": "Extensive documentation and conservation of the Great Sphinx; defender of conventional Egyptological chronology", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "Ancient Egypt Research Associates (AERA)", "url": "https://www.aeraweb.org", "focus": "Archaeological research at Giza including the sphinx and its geological context" },
+      { "name": "UNESCO World Heritage Programme", "url": "https://whc.unesco.org", "focus": "The Memphis and its Necropolis site (including Giza) is a UNESCO World Heritage Site" }
+    ],
+    "ongoing_studies": "Active archaeological and geological research continues on the dating and geological history of the Great Sphinx of Giza. Conservation of the monument's deteriorating limestone is an ongoing UNESCO and Egyptian government effort."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-sphinx",
+      "type": "website",
+      "title": "Sphinx",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sphinx",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "sophocles-oedipus",
+      "type": "archive",
+      "title": "Oedipus Rex",
+      "authors": ["Sophocles"],
+      "date": "0496-01-01",
+      "notes": "Primary Greek literary source for the sphinx riddle tradition"
+    },
+    {
+      "id": "lehner-1997",
+      "type": "book",
+      "title": "The Complete Pyramids",
+      "authors": ["Mark Lehner"],
+      "publication": "Thames and Hudson",
+      "date": "1997",
+      "isbn": "978-0500050842"
+    }
+  ]
 }
